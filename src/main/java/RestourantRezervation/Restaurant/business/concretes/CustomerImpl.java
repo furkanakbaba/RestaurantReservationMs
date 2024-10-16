@@ -69,10 +69,7 @@ public class CustomerImpl implements CustomerService {
 
     }
 
-    @Override
-    public DataResult<CustomerDto> getById(int id) {
-        return null;
-    }
+
 
 
 }

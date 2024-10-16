@@ -15,5 +15,5 @@ public Result add(CustomerAddRequestDto dto);
 public Result delete(int id);
 public  Result update(int id,CustomerUpdateRequestDto dto);
 public DataResult<List<CustomerDto>> getAll();
-public DataResult<CustomerDto> getById(int id);
+
 }
